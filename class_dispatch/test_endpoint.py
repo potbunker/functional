@@ -1,7 +1,7 @@
 import processor
 
+p = processor.Processor()
 
-proc = processor.Processor()
 
+p.endpoint_a(None)
 
-proc.endpoint_b(None)
