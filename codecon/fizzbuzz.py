@@ -4,7 +4,8 @@ def fizzbuzz(number):
     pazz = lambda x: 'pazz' if x % 7 == 0 else ''
     return str(number) + ': ' + ''.join([fizz(number), buzz(number), pazz(number)])
 
-list(map(lambda x: print(fizzbuzz(x)), range(200)))
+for x in range(2000):
+    print fizzbuzz(x)
 
 
 
