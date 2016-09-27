@@ -1,0 +1,14 @@
+[
+    {
+        "name": "id",
+        "type": "str"
+    },
+    {
+        "name": "number",
+        "type": "int"
+    },
+    {
+        "name": "start",
+        "type": "date"
+    }
+]
